@@ -37,7 +37,7 @@ public abstract class Item{
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(),location, name, state);
+        return name.hashCode();
     }
 
     @Override
