@@ -100,7 +100,7 @@ public abstract class Human implements AbleToUse, Movable, SoundMaker, AbleToFee
     }
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(),name, location, age, condition);
+        return Objects.hash(name, age);
     }
 
     @Override
